@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="412dp"
+        android:layout_height="620dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/SMD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simard Hall (SMD) " />
+
+            <Button
+                android:id="@+id/LRR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="100 Laurier (LRR)" />
+
+            <Button
+                android:id="@+id/FTX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fauteux Hall (FTX) " />
+
+            <Button
+                android:id="@+id/DMS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desmarais Hall (DMS) " />
+
+            <Button
+                android:id="@+id/TBT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tabaret Hall (TBT) " />
+
+            <Button
+                android:id="@+id/SMN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Academic Hall (SMN) " />
+
+            <Button
+                android:id="@+id/LMX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lamoureux Hall (LMX) " />
+
+            <Button
+                android:id="@+id/FSS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Social Sciences Building (FSS) " />
+
+            <Button
+                android:id="@+id/UCU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="University Centre (UCU) " />
+
+            <Button
+                android:id="@+id/MNT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Montpetit Hall (MNT) " />
+
+            <Button
+                android:id="@+id/MRT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Morisset Hall (MRT) " />
+
+            <Button
+                android:id="@+id/CRX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Learning Crossroads (CRX) " />
+
+            <Button
+                android:id="@+id/VNR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vanier Hall (VNR) " />
+
+            <Button
+                android:id="@+id/BSC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biosciences Complex (BSC) " />
+
+            <Button
+                android:id="@+id/STE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SITE (STE) " />
+
+            <Button
+                android:id="@+id/MNO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Minto Sports Complex (MNO) " />
+
+            <Button
+                android:id="@+id/CBY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Colonel By Hall (CBY) " />
+
+            <Button
+                android:id="@+id/ARC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Advanced Research Complex (ARC) " />
+
+            <Button
+                android:id="@+id/STM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="STEM Complex (STM) " />
+
+            <Button
+                android:id="@+id/MRN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marion Hall (MRN) " />
+
+            <Button
+                android:id="@+id/DRO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="D'Iorio Hall (DRO) " />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
